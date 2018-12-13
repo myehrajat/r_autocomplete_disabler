@@ -22,7 +22,6 @@ function RentIt_Autocomplete_Disabler_disable_autocomplete() {
 		echo '<script type="text/javascript">';?>
 		jQuery( document ).ready( function( $ ) {
 			jQuery('input[type=text]').each(function() {
-				//alert(jQuery(this).value);
 				$(this).attr('autocomplete', 'off');
 			})
 		});
